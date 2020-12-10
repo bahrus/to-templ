@@ -4,7 +4,9 @@ to-templ allows server-rendered html content to serve as a source for a template
 
 ## Syntax
 
+```html
 <to-templ from="[css selector]"></to-templ>
+```
 
 css selector applies in the same Shadow DOM realm as the instance, or more typically, outside any Shadow DOM.
 
